@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background-color: #f3f3f3;
+    font-family: 'Nunito', sans-serif;
+}
+
+ 
+#sec_contact {
+    width: 100%;
+    margin-top: 30px;
+}
+
+#title {
+    width: 1200px;
+    margin: auto;  
+    font-size: 13px; 
+    margin-bottom: 20px;
+}
+
+#title>span {
+    color: #288ad6;
+}
+
+#sec_contact .container_contact {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+#sec_contact .container_contact .form_contact {
+    width: 435px;
+}
+
+#sec_contact .container_contact .form_contact>h4 {
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border-left: 5px solid #fb0;
+}
+
+#sec_contact .container_contact .form_contact>form {
+    padding: 20px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+
+#sec_contact .container_contact .form_contact>form>button {
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: 20px;
+    color: white;
+    background-color: #288ad6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.con_form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 10px;
+}
+
+.con_form>input {
+    padding: 6px 0px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.con_form>textarea {
+    outline: none;
+    border: none;
+}
+
+
+#sec_contact .container_contact .other_contact {
+    flex: 2;
+}
+
+#sec_contact .container_contact .other_contact>p {
+    color: #666666;
+    font-size: 14px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gainsboro;
+}
+
+#sec_contact .container_contact .other_contact>p>a {
+    text-decoration: none;
+    color: #288ad6;
+}
+
+#sec_contact .container_contact .other_contact .del_other_con {
+    margin-top: 15px;
+    line-height: 1.5;
+    color: #666666;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#sec_contact .container_contact .other_contact .del_other_con>h5>a {
+    color: #288ad6;
+}
+
+#sec_contact .container_contact .other_contact .del_other_con>h5>span {
+    color: #f60;
+}
+
+
+#sec_contact .container_contact .other_contact .address_con {
+    display: flex;
+    gap: 20px;
+}
+
+#sec_contact .container_contact .other_contact .address_con .add_l>h3{
+    padding-bottom: 15px;
+    border-bottom: 1px solid gainsboro;
+}
+
+#sec_contact .container_contact .other_contact .address_con .add_l>h5 {
+    margin-top: 10px;
+    color: #666666;
+    font-weight: 400;
+}
+
+#sec_contact .container_contact .other_contact .address_con .add_l>h5>span {
+    color: #f60;
+}
+
+#sec_contact .container_contact .other_contact .address_con .add_r>img {
+    width: 100%;
+}

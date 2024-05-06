@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background-color: #f3f3f3;
+    font-family: 'Nunito', sans-serif;
+}
+
+#history {
+    width: 100%;
+}
+
+#history .container_his {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#history .container_his>h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+#history .container_his>ul {
+    display: flex;
+    gap: 40px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+#history .container_his>ul>li {
+    color: #999999;
+}
+
+#history .container_his>ul>li:last-child>i {
+    color: #f99505;
+}
+
+#history .container_his .content_his{
+    width: 100%;
+    
+}
+
+.content_his .formation_process{
+    margin-bottom: 20px;
+}
+
+.content_his .formation_process>h5{
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.content_his .formation_process>h5>span {
+    color: #288ad6;
+}
+
+#history .container_his .prize {
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+
+#history .container_his .prize>li {
+    font-style: italic;
+}
+
+.post_other {
+    width: 100%;
+}
+
+.post_other>h3 {
+    width: 1200px;
+    margin:  0 auto;
+    margin-bottom: 20px;
+}
+
+.post_gr_ite {
+    width: 1200px;
+    margin:  0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 50px;
+}
+
+.post_ite {
+    flex: calc(33.33% - 10px);
+}
+
+.post_ite>img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.post_ite>h5 {
+    margin-bottom: 10px;
+}
+
+.post_ite>span {
+    color: #999999;
+}
